@@ -1,0 +1,21 @@
+#drum-machine {
+  width: 50%;
+  margin: auto;
+}
+
+.drum-pad-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3px;
+
+  > button {
+    font-family: 'Crimson Pro', serif;
+    font-weight: 500;
+    font-size: 1.5em;
+    padding: 10px;
+  }
+}
+
+.clip {
+  display: none;
+}
